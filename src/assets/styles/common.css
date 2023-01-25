@@ -1,0 +1,187 @@
+@charset "utf-8";
+
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.link {
+  color: #66b1ff;
+}
+.link:hover,
+.link:active {
+  color: #409eff;
+}
+.flex {
+  display: flex;
+}
+.text-align-right {
+  display: block;
+  text-align: right;
+}
+.text-align-left {
+  text-align: left;
+}
+.text-align-center {
+  text-align: center;
+}
+.margin-4x {
+  margin-bottom: 20px;
+}
+.margin-2x {
+  margin-bottom: 10px;
+}
+.margin-1x {
+  margin-bottom: 5px;
+}
+.font-size-20 {
+  font-size: 20px;
+}
+.full-width {
+  width: 100%;
+}
+.link-blue {
+  color: #409eff;
+}
+.link-blue:focus,
+.link-blue:hover {
+  color: #66b1ff;
+}
+.link-blue:active {
+  color: #3a8ee6;
+}
+.demo-block {
+  /* border: solid 1px #ebebeb;
+  border-radius: 3px; */
+}
+.el-dialog__body {
+  padding: 10px 20px;
+}
+h3 {
+  font-size: 22px;
+}
+.form-info-color {
+  color: #909399;
+  font-size: 12px;
+  line-height: 18px;
+}
+hr {
+  background-color: #ebeef5;
+  height: 1px;
+  margin: 10px 0;
+  border: 0;
+  clear: both;
+}
+.el-pagination {
+  text-align: right;
+  margin-top: 40px;
+}
+.no-padding {
+  padding: 0;
+}
+
+.el-radio-button {
+  margin-right: 5px;
+}
+.el-radio-button__inner {
+  border-left: 1px solid #dcdfe6;
+}
+.el-collapse-item__arrow {
+  line-height: 48px;
+}
+.form-tag-dialog .input-new-tag {
+  max-width: 120px;
+}
+.form-tag-dialog .el-tag {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.icon-success {
+  color: #67c23a;
+  margin-right: 5px;
+}
+.icon-error {
+  color: #f56c6c;
+  margin-right: 5px;
+}
+.icon-warning {
+  color: #e6a23c;
+  margin-right: 5px;
+}
+.text-danger {
+  color: #f56c6c;
+}
+.text-warning {
+  color: #e6a23c;
+}
+.text-info {
+  color: #909399;
+}
+.search-input {
+  display: inline-block;
+  float: left;
+  text-align: left;
+}
+.search-input .el-input {
+  width: 75%;
+}
+.icon-info {
+  margin-right: 5px;
+}
+.readonly input {
+  background-color: #f5f7fa;
+  border-color: #e4e7ed;
+  color: #c0c4cc;
+}
+.el-radio-button {
+  margin-bottom: 5px;
+}
+
+.el-radio-button.el-radio-button--mini .el-radio-button__inner {
+  border-radius: 4px;
+}
+.form-verify-icon {
+  position: absolute;
+  right: -10px;
+  top: 0px;
+  transform: translateX(100%);
+}
+.domain-search-input {
+  display: block;
+  float: left;
+  text-align: left;
+}
+.domain-search-input .el-input {
+  width: 100%;
+}
+.error-message-btn {
+  color: #409eff;
+}
+.error-message-btn:focus,
+.error-message-btn:hover {
+  color: #66b1ff;
+}
+.error-message-detail {
+  padding: 10px 0px;
+}
+
+.el-message.is-closable .el-message__content {
+  padding-right: 40px;
+}
+
+.el-message__closeBtn {
+  top: 22px;
+}
+
+.el-radio {
+  margin-left: 0px;
+  margin-right: 30px;
+  line-height: 40px;
+}
+.el-radio + .el-radio {
+  margin-left: 0px;
+  margin-right: 30px;
+  line-height: 40px;
+}
